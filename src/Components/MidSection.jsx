@@ -10,14 +10,14 @@ const MidSection = () => {
           <div className=" grid place-items-center w-[300px] p-8 border bg-white rounded-md shadow-lg md:flex md:justify-between md:items-center md:gap-2 lg:p-5 lg:w-[530px] md:w-[450px]  md:p-5">
             <div>
               <img
-                src="/public/images/part1.png"
-                alt=""
+                src="/images/part1.png"
+                alt="picture"
                 className=" w-[220px]  pt-2   md:rotate-[-28deg] md:w-[500.48px]"
               />
             </div>
             <img
-              src="/public/images/part1b.png"
-              alt=""
+              src="/images/part1b.png"
+              alt="picture"
               className="w-24 relative right-[70px] top-[-100px] lg:top-[-26px] md:top-[-30px] md:right-[150px]
               lg:right-[180px] rotate-[-30deg] md:w-16"
             />
@@ -28,21 +28,21 @@ const MidSection = () => {
                 accounting from one place
               </p>
               <button className="capitalize flex items-center gap-1">
-                find out more{' '}
+                find out more
                 <span>
                   <img
-                    src="/public/images/arrow_right_alt_24dp_0A4C3E_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt=""
+                    src="/images/arrow_right_alt_24dp_0A4C3E_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt="more"
                   />
                 </span>
               </button>
             </div>
           </div>
-          <div className=" grid place-items-center w-[300px] p-8 border bg-white rounded-md shadow-lg md:flex md:justify-between md:items-center md:gap-2 lg:p-8.5 lg:w-[530px] md:w-[450px] md:p-9 ">
+          <div className=" grid place-items-center w-[300px] p-8 border bg-white rounded-md shadow-lg md:flex md:justify-between md:items-center md:gap-2 lg:p-8 lg:w-[530px] md:w-[450px] md:p-9 ">
             <div>
               <img
-                src="/public/images/part2.png"
-                alt=""
+                src="/images/part2.png"
+                alt="p1"
                 className=" w-[220px]  pt-2   md:rotate-[-28deg] md:w-[400.48px]"
               />
             </div>
@@ -65,7 +65,6 @@ const MidSection = () => {
                 <p className="flex gap-2 justify-between h-5 text-nowrap ">
                   Contactiess Payment
                   <span>
-                    {' '}
                     <label className="relative flex items-center mb-5 cursor-pointer">
                       <input
                         type="checkbox"
@@ -78,10 +77,8 @@ const MidSection = () => {
                   </span>
                 </p>
                 <p className="flex justify-between gap-2 ">
-                  {' '}
-                  Online Payment{' '}
+                  Online Payment
                   <span>
-                    {' '}
                     <label className="relative flex items-center mb-5 cursor-pointer">
                       <input
                         type="checkbox"
@@ -103,11 +100,11 @@ const MidSection = () => {
                 control.
               </p>
               <button className="capitalize flex items-center gap-1">
-                find out more{' '}
+                find out more
                 <span>
                   <img
-                    src="/public/images/arrow_right_alt_24dp_0A4C3E_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt=""
+                    src="/images/arrow_right_alt_24dp_0A4C3E_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt="more"
                   />
                 </span>
               </button>
@@ -138,27 +135,27 @@ const MidSection = () => {
                 basis.
               </p>
               <button className="capitalize flex items-center gap-1">
-                find out more{' '}
+                find out more
                 <span>
                   <img
-                    src="/public/images/arrow_right_alt_24dp_0A4C3E_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt=""
+                    src="/images/arrow_right_alt_24dp_0A4C3E_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt="more"
                   />
                 </span>
               </button>
             </div>
           </div>
-          <div className=" grid place-items-center w-[300px] p-8 border bg-white rounded-md shadow-lg md:flex md:justify-between lg:items-center md:gap-2 lg:p-5 md:p-9 lg:w-[530px] md:w-[450px] ">
+          <div className=" grid place-items-center w-[300px] p-8 border bg-white rounded-md shadow-lg md:flex md:justify-between lg:items-center md:gap-2 lg:p-4 md:p-9 lg:w-[530px] md:w-[450px] ">
             <div>
               <img
-                src="/public/images/part4.png"
+                src="/images/part4.png"
                 alt="p4"
                 className=" w-[220px]  pt-2   md:rotate-[-1deg] lg:ml-11 md:w-[200px] lg:w-[160px] md:ml-10"
               />
             </div>
             <img
-              src="/public/images/part4b.png"
-              alt=""
+              src="/images/part4b.png"
+              alt="pb4"
               className="w-24 relative rotate-[-30deg] right-[70px] top-[-100px] lg:top-[-10px] lg:right-[110px] lg:rotate-[-20deg] lg:w-22 md:w-20 md:top-[-10px] md:right-[100px]"
             />
             <div>
@@ -168,11 +165,11 @@ const MidSection = () => {
                 capital
               </p>
               <button className="capitalize flex items-center gap-1">
-                find out more{' '}
+                find out more
                 <span>
                   <img
-                    src="/public/images/arrow_right_alt_24dp_0A4C3E_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt=""
+                    src="/images/arrow_right_alt_24dp_0A4C3E_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt="more"
                   />
                 </span>
               </button>

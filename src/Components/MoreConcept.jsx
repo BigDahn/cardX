@@ -1,5 +1,3 @@
-
-
 const MoreConcept = () => {
   return (
     <section className="align-element mt-10 lg:mt-20 font-Fira">
@@ -7,8 +5,8 @@ const MoreConcept = () => {
         <div className="rounded-md shadow-md pl-6 pt-2 pr-6 h-44 w-72">
           <div>
             <img
-              src="/public/images/encrypted_60dp_000000_FILL0_wght400_GRAD0_opsz48.svg"
-              alt=""
+              src="/images/encrypted_60dp_000000_FILL0_wght400_GRAD0_opsz48.svg"
+              alt="24enc"
               className="pb-2 w-9"
             />
             <h3 className="font-medium capitalize text-lg">
@@ -23,8 +21,8 @@ const MoreConcept = () => {
         <div className="rounded-md shadow-md pl-8 pt-2 pr-8 w-72 h-44 ">
           <div>
             <img
-              src="/public/images/no-credit-card_3408793.png"
-              alt=""
+              src="/images/no-credit-card_3408793.png"
+              alt="sec"
               className="w-9 pb-2"
             />
             <h3 className="font-medium capitalize text-lg">No hidden Fees</h3>
@@ -38,7 +36,7 @@ const MoreConcept = () => {
         </div>
         <div className="rounded-md shadow-md pl-8 pt-2 pr-8 w-72 h-44 ">
           <div>
-            <img src="/public/images/football.png" alt="" className="w-9 pb-2" />
+            <img src="/images/football.png" alt="pics" className="w-9 pb-2" />
             <h3 className="font-medium capitalize text-lg">
               5X rewards on top spend
             </h3>

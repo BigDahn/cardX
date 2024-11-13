@@ -1,13 +1,11 @@
-
-
 const SectionLayout = () => {
   return (
     <section className="align-element mt-20 font-Fira">
       <div className="md:flex md:justify-evenly md:items-center">
         <div>
           <img
-            src="/public/images/6204100.jpg"
-            alt=""
+            src="/images/6204100.jpg"
+            alt="info"
             className="w-[400px] lg:w-[500px]"
           />
         </div>
@@ -18,7 +16,7 @@ const SectionLayout = () => {
           <ul>
             <li className="flex gap-2 items-center">
               <img
-                src="/public/images/icons8-checkmark-32.png"
+                src="/images/icons8-checkmark-32.png"
                 alt="icon"
                 className="w-4"
               />
@@ -26,7 +24,7 @@ const SectionLayout = () => {
             </li>
             <li className="flex gap-2 items-center">
               <img
-                src="/public/images/icons8-checkmark-32.png"
+                src="/images/icons8-checkmark-32.png"
                 alt="icon"
                 className="w-4"
               />
@@ -34,7 +32,7 @@ const SectionLayout = () => {
             </li>
             <li className="flex gap-2 items-center">
               <img
-                src="/public/images/icons8-checkmark-32.png"
+                src="/images/icons8-checkmark-32.png"
                 alt="icon"
                 className="w-4"
               />
@@ -42,7 +40,7 @@ const SectionLayout = () => {
             </li>
             <li className="flex gap-2 items-center">
               <img
-                src="/public/images/icons8-checkmark-32.png"
+                src="/images/icons8-checkmark-32.png"
                 alt="icon"
                 className="w-4"
               />
@@ -59,5 +57,3 @@ const SectionLayout = () => {
 }
 
 export default SectionLayout
-
-

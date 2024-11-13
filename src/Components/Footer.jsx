@@ -1,5 +1,3 @@
-
-
 const Footer = () => {
   return (
     <footer className=" mt-10 font-Fira ">
@@ -20,7 +18,7 @@ const Footer = () => {
             <div className="flex gap-4">
               <button className="flex items-center gap-2 border rounded-lg pl-5 pr-5 bg-white">
                 <img
-                  src="/public/images/apple-black-logo-svgrepo-com.svg"
+                  src="/images/apple-black-logo-svgrepo-com.svg"
                   alt="apple"
                   className="w-3 md:w-7"
                 />
@@ -33,13 +31,12 @@ const Footer = () => {
               </button>
               <button className="flex items-center gap-2  border rounded-lg pl-5 pr-5 pt-2 pb-1.5 bg-white">
                 <img
-                  src="/public/images/google-play-store-logo-svgrepo-com.svg"
+                  src="/images/google-play-store-logo-svgrepo-com.svg"
                   alt="google"
                   className="w-3 md:w-7"
                 />
                 <div>
                   <h3 className="text-[10px] font-semibold md:text-[11px]">
-                    
                     ANDROID App On
                   </h3>
                   <p>Google Play</p>
@@ -85,28 +82,29 @@ const Footer = () => {
           <div className="flex justify-between pt-3 pb-3">
             <h3 className="text-sm font-semibold flex items-center gap-2">
               Copyright 2010 - 2021{' '}
-             <div>
-               <h2 className="flex ">
-                Card<span className="text-[25px] text-[#51cd97] italic">X</span>
-              </h2>
-             </div>
+              <div>
+                <h2 className="flex ">
+                  Card
+                  <span className="text-[25px] text-[#51cd97] italic">X</span>
+                </h2>
+              </div>
             </h3>
             <div
               className="
             flex gap-3"
             >
               <img
-                src="/public/images/facebook-2-logo-svgrepo-com.svg"
+                src="/images/facebook-2-logo-svgrepo-com.svg"
                 alt="fb"
                 className="w-4"
               />
               <img
-                src="/public/images/11053970_x_logo_twitter_new_brand_icon.svg"
+                src="/images/11053970_x_logo_twitter_new_brand_icon.svg"
                 alt="twitter"
                 className="w-3"
               />
               <img
-                src="/public/images/instagram-2-1-logo-svgrepo-com.svg"
+                src="/images/instagram-2-1-logo-svgrepo-com.svg"
                 alt="instagram"
                 className="w-3"
               />

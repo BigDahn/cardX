@@ -1,5 +1,3 @@
-
-
 const DashboardControl = () => {
   return (
     <main className="align-element font-Fira  mt-20">
@@ -18,7 +16,7 @@ const DashboardControl = () => {
           </button>
         </div>
         <div>
-          <img src="/public/images/6029521.jpg" alt="" className="w-[65rem]" />
+          <img src="/images/6029521.jpg" alt="dash" className="w-[65rem]" />
         </div>
       </article>
     </main>

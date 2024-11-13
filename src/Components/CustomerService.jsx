@@ -1,12 +1,10 @@
-
-
 const CustomerService = () => {
   return (
     <section className="mt-10 align-element font-Fira">
       <article className=" grid md:flex md:justify-evenly md:items-center">
         <img
-          src="/public/images/4441866.jpg"
-          alt=""
+          src="/images/4441866.jpg"
+          alt="picture"
           className="w-[450px] order-last"
         />
         <div className="grid place-items-center md:place-items-start">
@@ -20,7 +18,7 @@ const CustomerService = () => {
           <button className="mt-2 border rounded-md pr-3 pl-3 pt-1 pb-1 flex items-center gap-2 font-semibold text-white bg-[#51cd97]">
             Contact Us
             <img
-              src="/public/images/support_agent_22dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+              src="/images/support_agent_22dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
               alt="support"
             />
           </button>

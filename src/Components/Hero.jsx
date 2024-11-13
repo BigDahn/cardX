@@ -1,5 +1,3 @@
-
-
 const Hero = () => {
   return (
     <main className="font-Fira align-element lg:mt-20 lg:mb-0">
@@ -18,18 +16,16 @@ const Hero = () => {
             Apply now
             <span className="rounded-full border bg-white">
               <img
-                src="/public/images/arrow_right_alt_24dp_0A4C3E_FILL0_wght400_GRAD0_opsz24.svg"
-                alt=""
-                className=""
+                src="/images/arrow_right_alt_24dp_0A4C3E_FILL0_wght400_GRAD0_opsz24.svg"
+                alt="hero"
               />
             </span>
           </button>
         </div>
-        <img src="/public/images/4113361.jpg" alt="" className="w-[600px] " />
+        <img src="/images/4113361.jpg" alt="hero" className="w-[600px] " />
       </div>
     </main>
   )
-
 }
 
 export default Hero
