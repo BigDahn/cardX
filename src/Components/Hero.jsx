@@ -12,7 +12,7 @@ const Hero = () => {
               Necessitatibus, minus.
             </p>
           </div>
-          <button className="flex items-center bg-white  justify-between  gap-4 rounded-full  pl-3 pr-3 pt-3 pb-3 uppercase font-semibold bg-[#51cd97] text-white ">
+          <button className="flex items-center justify-between  gap-4 rounded-full  pl-3 pr-3 pt-3 pb-3 uppercase font-semibold bg-[#51cd97] text-white ">
             Apply now
             <span className="rounded-full border bg-white">
               <img

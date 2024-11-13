@@ -113,7 +113,7 @@ const MidSection = () => {
           <div className=" grid place-items-center w-[300px] p-8 border bg-white rounded-md shadow-lg md:flex md:justify-evenly md:items-center md:gap-1 lg:p-6 lg:w-[530px]  md:w-[450px] md:p-5 ">
             <div>
               <img
-                src="/public/images/part3.png"
+                src="/images/part3.png"
                 alt="p3"
                 className=" w-[200px]  pt-2   md:rotate-[-28deg] lg:w-[400px] md:w-[340px] md:pl-0 lg:pl-2"
               />
