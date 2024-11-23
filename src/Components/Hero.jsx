@@ -22,7 +22,7 @@ const Hero = () => {
             </span>
           </button>
         </div>
-        <img src="/images/4113361.jpg" alt="hero" className="w-[600px] " />
+        <img src="/images/4113361.jpg" alt="hero" className="w-screen md:w-[400px] lg:w-[600px]" />
       </div>
     </main>
   )

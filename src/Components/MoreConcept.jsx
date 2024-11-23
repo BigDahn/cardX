@@ -1,8 +1,8 @@
 const MoreConcept = () => {
   return (
     <section className="align-element mt-10 lg:mt-20 font-Fira">
-      <div className="grid place-items-center gap-4 md:flex md:justify-evenly md:gap-1">
-        <div className="rounded-md shadow-md pl-6 pt-2 pr-6 h-44 w-72">
+      <div className="grid place-items-center md:grid-cols-2 md:place-items-center gap-4 lg:flex  lg:justify-evenly md:gap-1">
+        <div className="rounded-md shadow-md pl-6 pt-2 pr-6  h-44 max-w-80 min-w-64 ">
           <div>
             <img
               src="/images/encrypted_60dp_000000_FILL0_wght400_GRAD0_opsz48.svg"
@@ -18,7 +18,7 @@ const MoreConcept = () => {
             Your data secure with 256 bit encryption
           </p>
         </div>
-        <div className="rounded-md shadow-md pl-8 pt-2 pr-8 w-72 h-44 ">
+        <div className="rounded-md shadow-md pl-8 pt-2 pr-8 max-w-80 min-w-64 h-44 ">
           <div>
             <img
               src="/images/no-credit-card_3408793.png"
@@ -34,14 +34,14 @@ const MoreConcept = () => {
             <p>No hidden fees ever</p>
           </div>
         </div>
-        <div className="rounded-md shadow-md pl-8 pt-2 pr-8 w-72 h-44 ">
+        <div className="rounded-md shadow-md pl-8 pt-2 pr-8  h-44 max-w-80 min-w-64 ">
           <div>
             <img src="/images/football.png" alt="pics" className="w-9 pb-2" />
-            <h3 className="font-medium capitalize text-lg">
+            <h3 className="font-medium capitalize text-[16px]">
               5X rewards on top spend
             </h3>
           </div>
-          <div className="w-40 text-sm pt-4">
+          <div className=" text-sm pt-4  w-40">
             <p>Points are credited instantly and never expire</p>
           </div>
         </div>

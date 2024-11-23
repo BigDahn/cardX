@@ -10,7 +10,7 @@ const SectionLayout = () => {
           />
         </div>
         <div className="grid place-items-center md:place-items-start">
-          <h3 className="font-medium pb-2 text-3xl text-center mt-2 md:w-96 md:text-left md:mt-0">
+          <h3 className="font-medium pb-2 text-3xl text-center mt-2 md:w-96 lg:text-left md:mt-0">
             Get Access to all the Best Payment Methods for Your Company
           </h3>
           <ul>

@@ -7,21 +7,27 @@ import MoreConcept from "./Components/MoreConcept"
 import Navbar from "./Components/Navbar"
 import RegistrationSteps from "./Components/RegistrationSteps"
 import SectionLayout from "./Components/SectionLayout"
+import Sidebar from "./Sidebar"
+import { useState } from 'react'
+
+
 
 
 
 const App = () => {
+  const [sidebar, setSidebar] = useState(false)
   return (
     <div>
-      <Navbar />
+      <Sidebar sidebar={sidebar} setSidebar={setSidebar} />
+      <Navbar sidebar={sidebar} setSidebar={setSidebar} />
       <Hero />
-        <MoreConcept/>
-           <MidSection />
+      <MoreConcept />
+      <MidSection />
       <SectionLayout />
-      <DashboardControl/>
-      <CustomerService/>
-      <RegistrationSteps/>
-      <Footer/>
+      <DashboardControl />
+      <CustomerService />
+      <RegistrationSteps />
+      <Footer />
     </div>
   )
 }

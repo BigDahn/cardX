@@ -1,12 +1,16 @@
-const Navbar = () => {
+const Navbar = ({sidebar,setSidebar}) => {
   return (
     <div className="text-black font-Fira pb-20 pt-4">
       <div className="flex items-center h-[46px] justify-between align-element">
         <div>
-          <h3 className="flex items-center">
-            Card
-            <span className="font-bold text-3xl text-[#51cd97] italic">X</span>
-          </h3>
+          {sidebar || (
+            <h3 className="flex items-center">
+              Card
+              <span className="font-bold text-3xl text-[#51cd97] italic">
+                X
+              </span>
+            </h3>
+          )}
         </div>
         <ul className="hidden lg:flex gap-6">
           <li className="flex">
@@ -34,9 +38,9 @@ const Navbar = () => {
             Sign Up
           </button>
         </div>
-        <div className="lg:hidden">
+        <button className="lg:hidden" onClick={()=>setSidebar(true)}>
           <img src="/images/menu.png" alt="hamburger" className="w-6" />
-        </div>
+        </button>
       </div>
     </div>
   )

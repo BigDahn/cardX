@@ -2,20 +2,20 @@ const Footer = () => {
   return (
     <footer className=" mt-10 font-Fira ">
       <section className="align-element grid ">
-        <article className="md:flex md:justify-between gap-10 items-center md:h-80">
+        <article className="grid place-items-center lg:flex lg:justify-between gap-10 items-center lg:h-80">
           <div>
-            <div className="text-center md:text-left">
+            <div className="grid items-center place-items-center lg:text-left">
               <h3 className="font-bold text-2xl flex items-center ">
                 Card<span className="text-3xl text-[#51cd97] italic">X</span>
               </h3>
-              <p className="w-80 text-[14px] mb-2">
+              <p className="w-80 text-[14px] mb-2 text-center lg:text-left">
                 Qonto is a Payment Institution (registration number 16958),
                 supervised by the ACPR (Banque de France).
               </p>
               <h4 className="font-semibold mb-3">Download Now</h4>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex gap-5">
               <button className="flex items-center gap-2 border rounded-lg pl-5 pr-5 bg-white">
                 <img
                   src="/images/apple-black-logo-svgrepo-com.svg"

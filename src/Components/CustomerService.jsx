@@ -5,7 +5,7 @@ const CustomerService = () => {
         <img
           src="/images/4441866.jpg"
           alt="picture"
-          className="w-[450px] order-last"
+          className=" md:w-[300px] lg:w-[450px] order-last"
         />
         <div className="grid place-items-center md:place-items-start">
           <h3 className="text-3xl mb-3  text-center font-semibold  md:w-96 md:text-left">

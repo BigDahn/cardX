@@ -13,9 +13,9 @@ setMoreInfo(isOpen ? null : id )
         <h2>{title}</h2>
         <button className="mr-6" onClick={handleClick}>
           {isOpen ? (
-            <img src="../../public/images/minus.svg" />
+            <img src="/images/minus.svg" />
           ) : (
-            <img src="../../public/images/plus.svg" alt="" />
+            <img src="/images/plus.svg" alt="" />
           )}
         </button>
       </header>
